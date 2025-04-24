@@ -1,0 +1,88 @@
+[0.008s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Documents/ejercicio2_ws/src/test_move -DCMAKE_INSTALL_PREFIX=/home/leyla/Documents/ejercicio2_ws/install/test_move
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.290s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.672s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.733s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.740s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.751s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.975s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.037s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.090s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.095s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.206s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.231s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.287s] -- Found Threads: TRUE  
+[1.333s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.337s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.363s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.482s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.523s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.679s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.709s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.732s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.765s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.842s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/leyla/Documents/ejercicio2_ws/src/test_move/include>
+[1.842s] -- Configured cppcheck exclude dirs and/or files: 
+[1.843s] -- Added test 'lint_cmake' to check CMake code style
+[1.844s] -- Added test 'uncrustify' to check C / C++ code style
+[1.844s] -- Configured uncrustify additional arguments: 
+[1.845s] -- Added test 'xmllint' to check XML markup files
+[1.847s] -- Configuring done
+[1.872s] -- Generating done
+[1.880s] -- Build files have been written to: /home/leyla/Documents/ejercicio2_ws/build/test_move
+[1.889s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Documents/ejercicio2_ws/src/test_move -DCMAKE_INSTALL_PREFIX=/home/leyla/Documents/ejercicio2_ws/install/test_move
+[1.891s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/test_move -- -j20 -l20
+[1.943s] [ 50%] [32mBuilding CXX object CMakeFiles/ejercicio2.dir/src/ejercicio2.cpp.o[0m
+[1.943s] [ 50%] [32mBuilding CXX object CMakeFiles/bloques.dir/src/bloques.cpp.o[0m
+[4.730s] [01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:[m[K In function ‘[01m[Kvoid move_to_pose(moveit::planning_interface::MoveGroupInterface&, const Pose&, rclcpp::Logger)[m[K’:
+[4.730s] [01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:19:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.730s]    19 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[4.730s]       |                                                                                            [01;35m[K^~~~~~~[m[K
+[4.730s] In file included from [01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:4[m[K:
+[4.730s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.730s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[4.730s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.427s] [ 75%] [32m[1mLinking CXX executable ejercicio2[0m
+[6.484s] [100%] [32m[1mLinking CXX executable bloques[0m
+[6.650s] [100%] Built target ejercicio2
+[6.656s] [100%] Built target bloques
+[6.664s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/test_move -- -j20 -l20
+[6.666s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/test_move
+[6.671s] -- Install configuration: ""
+[6.671s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/ejercicio2
+[6.672s] -- Set runtime path of "/home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/ejercicio2" to ""
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/bloques
+[6.672s] -- Set runtime path of "/home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/bloques" to ""
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.sh
+[6.672s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.dsv
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.bash
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.sh
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.zsh
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.dsv
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.dsv
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[6.673s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.xml
+[6.675s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/test_move

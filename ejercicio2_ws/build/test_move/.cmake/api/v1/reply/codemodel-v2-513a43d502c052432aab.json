@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9dd33f95538dffd336fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_move",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bloques::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bloques-54f93d0e089b5455939d.json",
+					"name" : "bloques",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio2-23a3f84c460c447176e3.json",
+					"name" : "ejercicio2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_move_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_move_uninstall-fc94360e28780b094b3f.json",
+					"name" : "test_move_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a3bb80adb61ae81cf3fe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leyla/Documents/ejercicio2_ws/build/test_move",
+		"source" : "/home/leyla/Documents/ejercicio2_ws/src/test_move"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

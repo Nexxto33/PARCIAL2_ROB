@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48c4b08a060ddc237544.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "navigation_tb3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_navigation_tb3_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_navigation_tb3_egg-020be2a9e6181cc25656.json",
+					"name" : "ament_cmake_python_build_navigation_tb3_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_navigation_tb3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_navigation_tb3-6eb4849ac6c28177f73e.json",
+					"name" : "ament_cmake_python_symlink_navigation_tb3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_tb3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_tb3_uninstall-f94973793c1d5500d61d.json",
+					"name" : "navigation_tb3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pub_occupancy_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pub_occupancy_grid-137a49788525772a979b.json",
+					"name" : "pub_occupancy_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e0b4e909e973ead9bcf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leyla/Desktop/ver_ws/build/navigation_tb3",
+		"source" : "/home/leyla/Desktop/ver_ws/src/navigation_tb3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

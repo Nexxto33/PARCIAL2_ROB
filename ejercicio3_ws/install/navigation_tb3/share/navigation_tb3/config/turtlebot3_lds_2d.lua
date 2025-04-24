@@ -1,0 +1,1 @@
+/home/leyla/Desktop/ver_ws/src/navigation_tb3/config/turtlebot3_lds_2d.lua

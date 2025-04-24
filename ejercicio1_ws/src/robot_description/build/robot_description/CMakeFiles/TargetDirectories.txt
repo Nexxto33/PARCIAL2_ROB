@@ -1,0 +1,9 @@
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/uninstall.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/robot_description_uninstall.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/test.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/edit_cache.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/rebuild_cache.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/list_install_components.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/install.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/install/local.dir
+/home/ingkurby/Escritorio/robotica2_ws/src/ros2_tutorials/robot_description/build/robot_description/CMakeFiles/install/strip.dir

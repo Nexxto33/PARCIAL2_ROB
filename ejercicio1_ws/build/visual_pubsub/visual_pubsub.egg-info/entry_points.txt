@@ -1,0 +1,4 @@
+[console_scripts]
+c_dir = visual_pubsub.pub_joints:main
+c_inv = visual_pubsub.inverse_kinematics:main
+

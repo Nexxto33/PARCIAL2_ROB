@@ -1,0 +1,1 @@
+/home/leyla/Desktop/ver_ws/src/stage_ros2/launch/f710.launch.py

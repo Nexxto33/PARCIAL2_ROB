@@ -1,0 +1,121 @@
+[0.007s] Invoking command in '/home/leyla/Desktop/ver_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/leyla/Desktop/ver_ws/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/ver_ws/install/stage_ros2
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.419s] -- Detecting CXX compile features
+[0.419s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.692s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.782s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.839s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.847s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.858s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.874s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.955s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.962s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.151s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.231s] -- Looking for pthread.h
+[1.314s] -- Looking for pthread.h - found
+[1.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.409s] -- Found Threads: TRUE  
+[1.470s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.533s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.586s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.607s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.717s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.747s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.750s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.750s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.756s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.786s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.938s] -- Configured cppcheck include dirs: /home/leyla/Desktop/ver_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/leyla/Desktop/ver_ws/src/stage_ros2/include>
+[1.938s] -- Configured cppcheck exclude dirs and/or files: 
+[1.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.941s] -- Added test 'lint_cmake' to check CMake code style
+[1.943s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.948s] -- Added test 'uncrustify' to check C / C++ code style
+[1.948s] -- Configured uncrustify additional arguments: 
+[1.949s] -- Added test 'xmllint' to check XML markup files
+[1.952s] -- Configuring done
+[1.975s] -- Generating done
+[1.982s] -- Build files have been written to: /home/leyla/Desktop/ver_ws/build/stage_ros2
+[1.998s] Invoked command in '/home/leyla/Desktop/ver_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/leyla/Desktop/ver_ws/src/stage_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/ver_ws/install/stage_ros2
+[1.999s] Invoking command in '/home/leyla/Desktop/ver_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/stage_ros2 -- -j20 -l20
+[2.054s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[2.054s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[2.054s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[2.054s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[8.364s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[8.860s] [ 71%] Built target stage_node
+[8.876s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[12.921s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[13.211s] [100%] Built target stage_ros2
+[13.221s] Invoked command in '/home/leyla/Desktop/ver_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/stage_ros2 -- -j20 -l20
+[13.222s] Invoking command in '/home/leyla/Desktop/ver_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/stage_ros2
+[13.231s] -- Install configuration: ""
+[13.232s] -- Execute custom install script
+[13.232s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[13.242s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[13.252s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[13.261s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[13.272s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[13.281s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[13.291s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[13.302s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[13.312s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[13.319s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[13.325s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[13.331s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[13.338s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[13.345s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[13.355s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[13.365s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[13.374s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/cave.world
+[13.383s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[13.393s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[13.401s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[13.407s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/hallway.world
+[13.414s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[13.420s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[13.427s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/lines.world
+[13.433s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/straden.world
+[13.439s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[13.446s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[13.452s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[13.458s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[13.465s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[13.473s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[13.479s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[13.485s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[13.491s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[13.499s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/lib/libstage_node.so
+[13.506s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/lib/stage_ros2/stage_ros2
+[13.512s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[13.518s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[13.525s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[13.531s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[13.538s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/path.sh
+[13.544s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[13.550s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/local_setup.bash
+[13.557s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/local_setup.sh
+[13.563s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[13.569s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[13.576s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.dsv
+[13.583s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[13.589s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[13.595s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[13.602s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.xml
+[13.610s] Invoked command in '/home/leyla/Desktop/ver_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/stage_ros2

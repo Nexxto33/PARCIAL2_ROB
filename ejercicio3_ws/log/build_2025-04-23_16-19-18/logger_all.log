@@ -1,0 +1,523 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e0b2aa5df90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e0b2aa5d150>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e0b2aa5d150>>)
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leyla/Desktop/ver_ws'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'python'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'cmake' and name 'Stage'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_tb3' with type 'ros.ament_cmake' and name 'navigation_tb3'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/leyla/Desktop/ver_ws/install
+[0.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/leyla/Desktop/newvis_ws/install
+[0.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/leyla/turtlebot3_ws/install
+[0.326s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.380s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cartographer_ros' is in: /home/leyla/Desktop/ver_ws/install/cartographer_ros, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cartographer_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/Stage', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_tb3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/navigation_tb3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/navigation_tb3', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/navigation_tb3', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/stage_ros2', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/ver_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/ver_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.385s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/Stage'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/ver_ws/src/navigation_tb3' with build type 'ament_cmake'
+[0.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/navigation_tb3'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs -- -j20 -l20
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/Stage': /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/Stage -- -j20 -l20
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/navigation_tb3 -- -j20 -l20
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/Stage -- -j20 -l20
+[0.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/Stage': /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/Stage
+[0.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/Stage' returned '0': /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/Stage
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage' for CMake module files
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage' for CMake config files
+[0.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage/lib'
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[0.666s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage/bin'
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/path.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/path.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/path.sh'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage/lib/pkgconfig/Stage.pc'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage/lib/python3.10/site-packages'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/Stage/bin'
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/package.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/package.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/package.sh'
+[0.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/package.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/Stage/share/Stage/package.zsh'
+[0.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/Stage/share/colcon-core/packages/Stage)
+[0.679s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/ver_ws/src/stage_ros2' with build type 'ament_cmake'
+[0.679s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/stage_ros2'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/stage_ros2 -- -j20 -l20
+[0.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/stage_ros2 -- -j20 -l20
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/stage_ros2
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/stage_ros2
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2' for CMake module files
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2' for CMake config files
+[0.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib'
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/bin'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib/python3.10/site-packages'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/bin'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.bash'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.zsh'
+[0.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[0.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2' for CMake module files
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2' for CMake config files
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib'
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/lib/python3.10/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/stage_ros2/bin'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.sh'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.bash'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/stage_ros2/share/stage_ros2/package.zsh'
+[0.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs -- -j20 -l20
+[0.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/navigation_tb3 -- -j20 -l20
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/navigation_tb3
+[1.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3' for CMake module files
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/navigation_tb3
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3' for CMake config files
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/bin'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib/python3.10/site-packages'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/bin'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/lib/python3.10/site-packages'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/navigation_tb3/bin'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs' for CMake module files
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros_msgs
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib'
+[1.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/bin'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs' for CMake module files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs' for CMake config files
+[1.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib'
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/bin'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[1.156s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros'
+[1.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros -- -j20 -l20
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros -- -j20 -l20
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros
+[1.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros' for CMake module files
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros' for CMake config files
+[1.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/bin'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/bin'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[1.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[1.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_ros/bin'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[1.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[1.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[1.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_rviz'
+[1.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_rviz -- -j20 -l20
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_rviz -- -j20 -l20
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_rviz
+[1.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz' for CMake module files
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/Desktop/newvis_ws/install/panda_assist:/home/leyla/Desktop/newvis_ws/install/robot_description:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_rviz
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib'
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/bin'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/bin'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[1.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[1.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz' for CMake module files
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz' for CMake config files
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib'
+[1.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/bin'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/bin'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[1.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[1.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.693s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.699s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.699s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.699s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.712s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/ver_ws/install/local_setup.ps1'
+[1.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leyla/Desktop/ver_ws/install/_local_setup_util_ps1.py'
+[1.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/ver_ws/install/setup.ps1'
+[1.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/ver_ws/install/local_setup.sh'
+[1.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leyla/Desktop/ver_ws/install/_local_setup_util_sh.py'
+[1.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/ver_ws/install/setup.sh'
+[1.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/ver_ws/install/local_setup.bash'
+[1.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/ver_ws/install/setup.bash'
+[1.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/ver_ws/install/local_setup.zsh'
+[1.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/ver_ws/install/setup.zsh'

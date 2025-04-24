@@ -1,0 +1,31 @@
+[ 50%] Built target bloques
+[ 75%] [32mBuilding CXX object CMakeFiles/ejercicio2.dir/src/ejercicio2.cpp.o[0m
+[01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:[m[K In function ‘[01m[Kvoid move_to_pose(moveit::planning_interface::MoveGroupInterface&, const Pose&, rclcpp::Logger)[m[K’:
+[01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:19:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   19 |   bool success = (move_group.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/leyla/Documents/ejercicio2_ws/src/test_move/src/ejercicio2.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable ejercicio2[0m
+[100%] Built target ejercicio2
+-- Install configuration: ""
+-- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/ejercicio2
+-- Set runtime path of "/home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/ejercicio2" to ""
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/bloques
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.sh
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.dsv
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.bash
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.sh
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.zsh
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.dsv
+-- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.dsv
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+-- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.xml

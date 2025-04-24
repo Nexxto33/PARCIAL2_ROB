@@ -1,0 +1,4 @@
+Invoking command in '/home/leyla/Desktop/ver_ws/build/Stage': /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/Stage -- -j20 -l20
+Invoked command in '/home/leyla/Desktop/ver_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/Stage -- -j20 -l20
+Invoking command in '/home/leyla/Desktop/ver_ws/build/Stage': /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/Stage
+Invoked command in '/home/leyla/Desktop/ver_ws/build/Stage' returned '0': /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/Stage

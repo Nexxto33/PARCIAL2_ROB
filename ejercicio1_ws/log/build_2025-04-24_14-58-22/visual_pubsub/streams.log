@@ -1,0 +1,20 @@
+[0.410s] Invoking command in '/home/leyla/Documents/ejercicio1_ws/build/visual_pubsub': PYTHONPATH=/home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/build --no-deps symlink_data --force
+[0.593s] running develop
+[0.687s] running egg_info
+[0.687s] writing visual_pubsub.egg-info/PKG-INFO
+[0.687s] writing dependency_links to visual_pubsub.egg-info/dependency_links.txt
+[0.687s] writing entry points to visual_pubsub.egg-info/entry_points.txt
+[0.687s] writing requirements to visual_pubsub.egg-info/requires.txt
+[0.687s] writing top-level names to visual_pubsub.egg-info/top_level.txt
+[0.688s] reading manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.689s] writing manifest file 'visual_pubsub.egg-info/SOURCES.txt'
+[0.690s] running build_ext
+[0.690s] Creating /home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/lib/python3.10/site-packages/visual-pubsub.egg-link (link to .)
+[0.691s] Installing c_dir script to /home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.691s] Installing c_inv script to /home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/lib/visual_pubsub
+[0.691s] 
+[0.691s] Installed /home/leyla/Documents/ejercicio1_ws/build/visual_pubsub
+[0.691s] running symlink_data
+[0.691s] symbolically linking /home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/resource/visual_pubsub -> /home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/share/ament_index/resource_index/packages
+[0.691s] symbolically linking /home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/package.xml -> /home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/share/visual_pubsub
+[0.709s] Invoked command in '/home/leyla/Documents/ejercicio1_ws/build/visual_pubsub' returned '0': PYTHONPATH=/home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leyla/Documents/ejercicio1_ws/build/visual_pubsub/build --no-deps symlink_data --force

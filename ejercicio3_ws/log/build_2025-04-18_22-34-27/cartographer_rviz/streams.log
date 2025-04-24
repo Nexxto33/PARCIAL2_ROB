@@ -1,0 +1,160 @@
+[0.015s] Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/ver_ws/install/cartographer_rviz
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.515s] -- Looking for pthread.h
+[0.592s] -- Looking for pthread.h - found
+[0.592s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.653s] -- Found Threads: TRUE  
+[0.658s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.662s] -- Found required Ceres dependency: glog
+[0.662s] -- Found required Ceres dependency: gflags
+[0.662s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.670s] -- Build type: Release
+[0.674s] Files /home/leyla/Desktop/ver_ws/build/cartographer_rviz/AllFiles.cmake and - differ
+[0.689s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[0.690s] -- Found cartographer_ros: 2.0.9003 (/home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.852s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.939s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.084s] -- Checking for module 'eigen3'
+[1.097s] --   Found eigen3, version 3.4.0
+[1.137s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.137s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.165s] -- Checking for module 'flann'
+[1.179s] --   Found flann, version 1.9.1
+[1.232s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.232s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.251s] -- Checking for module 'libusb-1.0'
+[2.268s] --   Found libusb-1.0, version 1.0.25
+[2.311s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.313s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.386s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.504s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.509s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.514s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.626s] -- Found Qhull version 8.0.2
+[2.744s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.851s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.853s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.853s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.854s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.855s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.855s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.855s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.855s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.856s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.857s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.858s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.858s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.859s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.860s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.860s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.861s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.862s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.862s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.863s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.864s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.864s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.864s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.865s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.866s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.866s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.007s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[3.014s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.021s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.022s] -- Found OGRE
+[3.022s] --   static     : OFF
+[3.022s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.022s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.022s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.022s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.023s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.023s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.023s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.023s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.023s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.023s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.023s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.028s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.029s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.048s] -- Found X11: /usr/include   
+[3.145s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.166s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.166s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.239s] -- Deploy OGRE media
+[3.241s] -- Configuring done
+[3.301s] -- Generating done
+[3.308s] -- Build files have been written to: /home/leyla/Desktop/ver_ws/build/cartographer_rviz
+[3.322s] Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leyla/Desktop/ver_ws/install/cartographer_rviz
+[3.323s] Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_rviz -- -j20 -l20
+[3.368s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[3.371s] [ 16%] Built target cartographer_rviz_detect_changes
+[4.716s] [ 16%] Built target cartographer_rviz_autogen
+[4.738s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[4.739s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[4.739s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[4.740s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[17.456s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[18.450s] [100%] Built target cartographer_rviz
+[18.462s] Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_rviz -- -j20 -l20
+[18.464s] Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_rviz
+[18.473s] -- Install configuration: "Release"
+[18.474s] -- Execute custom install script
+[18.474s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz//rviz_plugin_description.xml
+[18.483s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[18.493s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[18.501s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[18.511s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[18.520s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[18.528s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[18.539s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[18.547s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[18.555s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[18.565s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[18.574s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[18.586s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[18.595s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[18.604s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[18.613s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[18.627s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[18.636s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[18.647s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[18.655s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[18.666s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.674s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[18.684s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.693s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[18.702s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[18.713s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[18.722s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+[18.726s] -- Set runtime path of "/home/leyla/Desktop/ver_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[18.726s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[18.727s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[18.736s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[18.736s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[18.736s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[18.736s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[18.737s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[18.737s] -- Installing: /home/leyla/Desktop/ver_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[18.739s] Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros/lib:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_rviz

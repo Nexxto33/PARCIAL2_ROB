@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/test_move -- -j20 -l20
+[0.071s] [ 50%] Built target bloques
+[0.074s] [100%] Built target ejercicio2
+[0.082s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/test_move -- -j20 -l20
+[0.083s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/test_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/test_move
+[0.088s] -- Install configuration: ""
+[0.088s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/ejercicio2
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/lib/test_move/bloques
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/package_run_dependencies/test_move
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/parent_prefix_path/test_move
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.sh
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/environment/path.dsv
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.bash
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.sh
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.zsh
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/local_setup.dsv
+[0.089s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.dsv
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/ament_index/resource_index/packages/test_move
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig.cmake
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/cmake/test_moveConfig-version.cmake
+[0.089s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/test_move/share/test_move/package.xml
+[0.091s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/test_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/test_move

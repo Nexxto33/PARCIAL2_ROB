@@ -1,0 +1,1 @@
+/home/leyla/Desktop/ver_ws/src/cartographer_ros/cartographer_ros/configuration_files/assets_writer_ros_map.lua

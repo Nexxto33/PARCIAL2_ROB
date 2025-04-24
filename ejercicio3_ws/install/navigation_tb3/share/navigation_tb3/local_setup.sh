@@ -1,0 +1,1 @@
+/home/leyla/Desktop/ver_ws/build/navigation_tb3/ament_cmake_environment_hooks/local_setup.sh

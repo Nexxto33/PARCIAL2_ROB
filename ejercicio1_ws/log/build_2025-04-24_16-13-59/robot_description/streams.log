@@ -1,0 +1,91 @@
+[0.015s] Invoking command in '/home/leyla/Documents/ejercicio1_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio1_ws/build/robot_description -- -j20 -l20
+[0.178s] Invoked command in '/home/leyla/Documents/ejercicio1_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio1_ws/build/robot_description -- -j20 -l20
+[0.187s] Invoking command in '/home/leyla/Documents/ejercicio1_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio1_ws/build/robot_description
+[0.194s] -- Install configuration: ""
+[0.195s] -- Execute custom install script
+[0.195s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/launch/view_robot.py
+[0.195s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.195s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.195s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.195s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.195s] Call Stack (most recent call first):
+[0.195s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.195s]   cmake_install.cmake:46 (include)
+[0.195s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.196s] [0m
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/ROBOT4.urdf
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/build/.built_by
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/build/COLCON_IGNORE
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/clases_test.urdf
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/cobot_arm.urdf
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/diff_wheeled_robot.urdf
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/guillecar.urdf
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/.colcon_install_layout
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/COLCON_IGNORE
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/_local_setup_util_ps1.py
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/_local_setup_util_sh.py
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/local_setup.bash
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/local_setup.ps1
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/local_setup.sh
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/local_setup.zsh
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/setup.bash
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/setup.ps1
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/setup.sh
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/install/setup.zsh
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/COLCON_IGNORE
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-33-40/events.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-33-40/logger_all.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-51-19/events.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-51-19/logger_all.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-52-05/events.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-52-05/logger_all.log
+[0.196s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-53-02/events.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/build_2025-04-03_12-53-02/logger_all.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/latest/events.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/latest/logger_all.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/latest_build/events.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/log/latest_build/logger_all.log
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/mi_robot.urdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/multipleshapes.gv
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/multipleshapes.pdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/myfirst_robot.urdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/panda.urdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/pantilt.urdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/urdf/wally1.urdf
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/rviz/urdf.rviz
+[0.197s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/finger.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/hand.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link0.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link1.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link2.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link3.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link4.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link5.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link6.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/collision/link7.obj
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[0.198s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/environment/path.sh
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/environment/path.dsv
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/local_setup.bash
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/local_setup.sh
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/local_setup.zsh
+[0.199s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/local_setup.dsv
+[0.199s] -- Symlinking: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/package.dsv
+[0.208s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.208s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.208s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.208s] -- Up-to-date symlink: /home/leyla/Documents/ejercicio1_ws/install/robot_description/share/robot_description/package.xml
+[0.210s] Invoked command in '/home/leyla/Documents/ejercicio1_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio1_ws/build/robot_description

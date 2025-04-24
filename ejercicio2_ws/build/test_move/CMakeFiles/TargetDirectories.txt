@@ -1,0 +1,11 @@
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/uninstall.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/test_move_uninstall.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/bloques.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/ejercicio2.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/test.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/edit_cache.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/rebuild_cache.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/list_install_components.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/install.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/install/local.dir
+/home/leyla/Documents/ejercicio2_ws/build/test_move/CMakeFiles/install/strip.dir

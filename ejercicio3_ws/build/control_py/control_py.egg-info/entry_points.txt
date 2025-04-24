@@ -1,0 +1,10 @@
+[console_scripts]
+control = control_py.control:main
+control_distance = control_py.control_distance:main
+ejercicio3 = control_py.ejercicio3:main
+marker_v = control_py.marker:main
+nav2 = control_py.nav2:main
+nav_auto = control_py.nav_auto:main
+navegacion = control_py.navegacion:main
+sub_laser = control_py.sub_laser:main
+

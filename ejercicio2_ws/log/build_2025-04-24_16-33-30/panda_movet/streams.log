@@ -1,0 +1,41 @@
+[0.016s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/panda_movet -- -j20 -l20
+[0.047s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/panda_movet -- -j20 -l20
+[0.056s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/panda_movet
+[0.061s] -- Install configuration: ""
+[0.061s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/package_run_dependencies/panda_movet
+[0.061s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/parent_prefix_path/panda_movet
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/path.sh
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/path.dsv
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.bash
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.sh
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.zsh
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.dsv
+[0.062s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/package.dsv
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/packages/panda_movet
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/cmake/panda_movetConfig.cmake
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/cmake/panda_movetConfig-version.cmake
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/package.xml
+[0.062s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/rsp.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/move_group.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/demo.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/setup_assistant.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/static_virtual_joint_tfs.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/spawn_controllers.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/moveit_rviz.launch.py
+[0.063s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/warehouse_db.launch.py
+[0.064s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config
+[0.064s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.ros2_control.xacro
+[0.064s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.urdf.xacro
+[0.064s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/ros2_controllers.yaml
+[0.064s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/pilz_cartesian_limits.yaml
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/moveit_controllers.yaml
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.srdf
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/initial_positions.yaml
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/kinematics.yaml
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/joint_limits.yaml
+[0.065s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/moveit.rviz
+[0.066s] -- Up-to-date: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/.setup_assistant
+[0.066s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/Desktop/ver_ws/install/navigation_tb3:/home/leyla/Desktop/ver_ws/install/cartographer_rviz:/home/leyla/Desktop/ver_ws/install/cartographer_ros:/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/newvis_ws/install/panda_movet:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/panda_movet

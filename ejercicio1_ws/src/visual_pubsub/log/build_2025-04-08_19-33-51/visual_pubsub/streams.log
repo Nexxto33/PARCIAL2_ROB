@@ -1,0 +1,27 @@
+[1.142s] Invoking command in '/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub': PYTHONPATH=/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/visual_pubsub build --build-base /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/build install --record /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/install.log --single-version-externally-managed install_data
+[1.498s] running egg_info
+[1.499s] writing build/visual_pubsub/visual_pubsub.egg-info/PKG-INFO
+[1.500s] writing dependency_links to build/visual_pubsub/visual_pubsub.egg-info/dependency_links.txt
+[1.500s] writing entry points to build/visual_pubsub/visual_pubsub.egg-info/entry_points.txt
+[1.500s] writing requirements to build/visual_pubsub/visual_pubsub.egg-info/requires.txt
+[1.500s] writing top-level names to build/visual_pubsub/visual_pubsub.egg-info/top_level.txt
+[1.503s] reading manifest file 'build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[1.503s] adding license file 'LICENSE'
+[1.504s] writing manifest file 'build/visual_pubsub/visual_pubsub.egg-info/SOURCES.txt'
+[1.504s] running build
+[1.505s] running build_py
+[1.505s] copying visual_pubsub/inverse_kinematics.py -> /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/build/lib/visual_pubsub
+[1.506s] running install
+[1.506s] running install_lib
+[1.507s] copying /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/build/lib/visual_pubsub/inverse_kinematics.py -> /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub
+[1.508s] byte-compiling /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub/inverse_kinematics.py to inverse_kinematics.cpython-310.pyc
+[1.510s] running install_data
+[1.510s] running install_egg_info
+[1.514s] removing '/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.515s] Copying build/visual_pubsub/visual_pubsub.egg-info to /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages/visual_pubsub-0.0.0-py3.10.egg-info
+[1.516s] running install_scripts
+[1.545s] Installing inverse script to /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/visual_pubsub
+[1.546s] Installing pub_joints script to /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/visual_pubsub
+[1.546s] Installing sub_joints script to /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/visual_pubsub
+[1.546s] writing list of installed files to '/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/install.log'
+[1.575s] Invoked command in '/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub' returned '0': PYTHONPATH=/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/install/visual_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/visual_pubsub build --build-base /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/build install --record /home/ingkurby/Escritorio/robotica2_ws/src/visual_pubsub/build/visual_pubsub/install.log --single-version-externally-managed install_data

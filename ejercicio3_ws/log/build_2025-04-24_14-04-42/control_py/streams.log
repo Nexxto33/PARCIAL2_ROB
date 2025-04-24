@@ -1,0 +1,29 @@
+[0.392s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/src/control_py': PYTHONPATH=/home/leyla/Documents/ejercicio2_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/ejercicio2_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_py build --build-base /home/leyla/Documents/ejercicio2_ws/build/control_py/build install --record /home/leyla/Documents/ejercicio2_ws/build/control_py/install.log --single-version-externally-managed install_data
+[0.523s] running egg_info
+[0.524s] writing ../../build/control_py/control_py.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../build/control_py/control_py.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../build/control_py/control_py.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../build/control_py/control_py.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/control_py/control_py.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/control_py/control_py.egg-info/SOURCES.txt'
+[0.525s] adding license file 'LICENSE'
+[0.526s] writing manifest file '../../build/control_py/control_py.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.527s] running install
+[0.527s] running install_lib
+[0.528s] running install_data
+[0.528s] running install_egg_info
+[0.529s] removing '/home/leyla/Documents/ejercicio2_ws/install/control_py/lib/python3.10/site-packages/control_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.529s] Copying ../../build/control_py/control_py.egg-info to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/python3.10/site-packages/control_py-0.0.0-py3.10.egg-info
+[0.529s] running install_scripts
+[0.541s] Installing control script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing control_distance script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing ejercicio3 script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing marker_v script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing nav2 script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing nav_auto script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing navegacion script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] Installing sub_laser script to /home/leyla/Documents/ejercicio2_ws/install/control_py/lib/control_py
+[0.541s] writing list of installed files to '/home/leyla/Documents/ejercicio2_ws/build/control_py/install.log'
+[0.556s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/src/control_py' returned '0': PYTHONPATH=/home/leyla/Documents/ejercicio2_ws/build/control_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Documents/ejercicio2_ws/install/control_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_py build --build-base /home/leyla/Documents/ejercicio2_ws/build/control_py/build install --record /home/leyla/Documents/ejercicio2_ws/build/control_py/install.log --single-version-externally-managed install_data

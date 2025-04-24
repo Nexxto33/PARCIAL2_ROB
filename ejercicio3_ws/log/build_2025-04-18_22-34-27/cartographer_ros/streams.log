@@ -1,0 +1,120 @@
+[0.009s] Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros -- -j20 -l20
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target cartographer_ros[0m
+[0.151s] [ 60%] Built target cartographer_ros
+[0.170s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[0.170s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[0.171s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[0.172s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[0.173s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[0.175s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[0.177s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[4.255s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[4.435s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[4.738s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[5.339s] [ 88%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[5.393s] [ 91%] [32m[1mLinking CXX executable cartographer_node[0m
+[5.923s] [ 91%] Built target cartographer_assets_writer
+[6.987s] [ 94%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[7.052s] [ 94%] Built target cartographer_offline_node
+[7.305s] [ 94%] Built target cartographer_rosbag_validate
+[7.364s] [ 97%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[7.746s] [ 97%] Built target cartographer_node
+[7.757s] [ 97%] Built target cartographer_pbstream_map_publisher
+[8.815s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[9.443s] [100%] Built target cartographer_occupancy_grid_node
+[9.454s] Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/leyla/Desktop/ver_ws/build/cartographer_ros -- -j20 -l20
+[9.456s] Invoking command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros
+[9.462s] -- Install configuration: ""
+[9.462s] -- Execute custom install script
+[9.462s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/libcartographer_ros.a
+[9.468s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[9.479s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[9.488s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[9.497s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[9.506s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[9.516s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[9.524s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[9.532s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[9.540s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[9.549s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[9.559s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[9.570s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[9.580s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[9.590s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[9.599s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[9.608s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/node.h
+[9.617s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[9.625s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/node_options.h
+[9.633s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[9.641s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[9.649s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[9.657s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[9.667s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[9.677s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[9.686s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/submap.h
+[9.696s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[9.704s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[9.712s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[9.718s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[9.724s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[9.732s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[9.738s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[9.747s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[9.756s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[9.763s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[9.768s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[9.776s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[9.784s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[9.789s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[9.797s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[9.806s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[9.815s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[9.825s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[9.835s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[9.845s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[9.853s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[9.863s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[9.872s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[9.882s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[9.892s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[9.900s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[9.909s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[9.917s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[9.926s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[9.934s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[9.939s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[9.946s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[9.953s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[9.958s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[9.966s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[9.975s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[9.984s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[9.992s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[10.001s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[10.008s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[10.017s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[10.024s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[10.032s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[10.040s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[10.049s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[10.058s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[10.065s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[10.072s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[10.080s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[10.087s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[10.097s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[10.106s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[10.115s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[10.124s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[10.132s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[10.140s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[10.149s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[10.157s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.dsv
+[10.166s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[10.175s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.184s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[10.192s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.202s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[10.212s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[10.221s] -- Symlinking: /home/leyla/Desktop/ver_ws/install/cartographer_ros/share/cartographer_ros/package.xml
+[10.231s] Invoked command in '/home/leyla/Desktop/ver_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs:/home/leyla/Desktop/ver_ws/install/stage_ros2:/home/leyla/Desktop/ver_ws/install/Stage:/home/leyla/Desktop/inge_ws/install/robot_description:/home/leyla/turtlebot3_ws/install/turtlebot3:/home/leyla/turtlebot3_ws/install/turtlebot3_bringup:/home/leyla/turtlebot3_ws/install/turtlebot3_node:/home/leyla/turtlebot3_ws/install/turtlebot3_navigation2:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs:/home/leyla/turtlebot3_ws/install/turtlebot3_description:/home/leyla/turtlebot3_ws/install/turtlebot3_cartographer:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leyla/turtlebot3_ws/install/dynamixel_sdk:/home/leyla/Desktop/inge_ws/install/py_examples:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/lib:/home/leyla/Desktop/ver_ws/install/stage_ros2/lib:/home/leyla/Desktop/ver_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/leyla/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leyla/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/leyla/Desktop/ver_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/leyla/Desktop/ver_ws/build/cartographer_ros

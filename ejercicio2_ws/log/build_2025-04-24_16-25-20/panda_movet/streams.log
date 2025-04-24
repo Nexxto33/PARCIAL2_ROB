@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Documents/ejercicio2_ws/src/panda_movet -DCMAKE_INSTALL_PREFIX=/home/leyla/Documents/ejercicio2_ws/install/panda_movet
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.456s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Configuring done
+[0.598s] -- Generating done
+[0.599s] -- Build files have been written to: /home/leyla/Documents/ejercicio2_ws/build/panda_movet
+[0.601s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/leyla/Documents/ejercicio2_ws/src/panda_movet -DCMAKE_INSTALL_PREFIX=/home/leyla/Documents/ejercicio2_ws/install/panda_movet
+[0.603s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/panda_movet -- -j20 -l20
+[0.635s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Documents/ejercicio2_ws/build/panda_movet -- -j20 -l20
+[0.647s] Invoking command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/panda_movet
+[0.656s] -- Install configuration: ""
+[0.656s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/package_run_dependencies/panda_movet
+[0.656s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/parent_prefix_path/panda_movet
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/ament_prefix_path.sh
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/ament_prefix_path.dsv
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/path.sh
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/environment/path.dsv
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.bash
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.sh
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.zsh
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/local_setup.dsv
+[0.657s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/package.dsv
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/ament_index/resource_index/packages/panda_movet
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/cmake/panda_movetConfig.cmake
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/cmake/panda_movetConfig-version.cmake
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/package.xml
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/rsp.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/move_group.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/demo.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/setup_assistant.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/static_virtual_joint_tfs.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/spawn_controllers.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/moveit_rviz.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/launch/warehouse_db.launch.py
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.ros2_control.xacro
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.urdf.xacro
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/ros2_controllers.yaml
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/pilz_cartesian_limits.yaml
+[0.658s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/moveit_controllers.yaml
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/panda.srdf
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/initial_positions.yaml
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/kinematics.yaml
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/joint_limits.yaml
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/config/moveit.rviz
+[0.659s] -- Installing: /home/leyla/Documents/ejercicio2_ws/install/panda_movet/share/panda_movet/.setup_assistant
+[0.660s] Invoked command in '/home/leyla/Documents/ejercicio2_ws/build/panda_movet' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Documents/ejercicio1_ws/install/visual_pubsub:/home/leyla/Documents/ejercicio2_ws/install/robot_nav:/home/leyla/Documents/ejercicio2_ws/install/control_py:/home/leyla/Documents/PARCIAL2_ws/install/visual_pubsub:/home/leyla/Documents/p2_ws/install/ej1_pkg:/home/leyla/Documents/p2_ws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/visual_pubsub:/home/leyla/Desktop/2_parcialws/install/ejercicio1_pkg:/home/leyla/Desktop/parcial2_ws/install/control_py:/home/leyla/Desktop/ver_ws/install/robot_nav:/home/leyla/turtlebot3_ws/install/turtlebot3_teleop:/home/leyla/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Documents/ejercicio2_ws/build/panda_movet
